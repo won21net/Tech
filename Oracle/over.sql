@@ -1,12 +1,4 @@
-﻿-- 그룹별 1건씩 가져오기
-SELECT uid, seq, regdate
-FROM (
-SELECT uid, seq, regdate, ROW_NUMBER() OVER(PARTITION BY uid ORDER BY regdate DESC, seq DESC) as rn
-FROM mmm
-) WHERE rn=1
-
-
---#############################################
+﻿--#############################################
 -- OVER 사용법
 --#############################################
 
