@@ -1,0 +1,8 @@
+# Oracle Database 11g Standard 설치 64bit 설치
+system / orcl
+orcl/orcl
+jackpot/jackpot
+
+# Orange 4.0을 설치하기 위해서는
+1.Oracle Client 32bit 설치
+2.tnsnames.ora 복붙
